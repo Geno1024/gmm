@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Packager" />
+            <option value="$PROJECT_DIR$/Utils" />
+            <option value="$PROJECT_DIR$/Utils/ArgParser" />
           </set>
         </option>
       </GradleProjectSettings>
