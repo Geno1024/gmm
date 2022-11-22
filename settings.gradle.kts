@@ -1,7 +1,7 @@
 rootProject.name = "gmm"
 
-include(":Utils:ArgParser")
-include(":Packager")
+include(":utils:argparser")
+include(":packager")
 
 gradle.allprojects {
     repositories {

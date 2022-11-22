@@ -3,6 +3,13 @@ plugins {
 }
 
 kotlin {
+    sourceSets {
+        getByName("commonMain") {
+            dependencies {
+//                implementation("com.geno1024.utils:argparser:0.1")
+            }
+        }
+    }
     linuxX64 {
         binaries {
             executable("gmm-packager") {
