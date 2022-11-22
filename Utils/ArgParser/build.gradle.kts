@@ -3,10 +3,6 @@ plugins {
     `maven-publish`
 }
 
-repositories {
-    mavenCentral()
-}
-
 kotlin {
     linuxX64 {
         binaries {
