@@ -1,6 +1,7 @@
 rootProject.name = "gmm"
 
 include(":utils:argparser")
+include(":utils:networking")
 include(":packager")
 
 gradle.allprojects {
