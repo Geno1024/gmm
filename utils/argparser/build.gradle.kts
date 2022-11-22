@@ -21,10 +21,4 @@ java {
 }
 
 publishing {
-    repositories {
-        mavenLocal {
-            name = "GenoLocal"
-            url = uri("/srv/http/geno1024/m2repo")
-        }
-    }
 }
